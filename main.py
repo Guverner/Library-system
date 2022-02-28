@@ -11,7 +11,7 @@ class Library:
     def take_book(self):
             name=input("ENTER NAME OF BOOK")
             if name in self.books:
-                print(f"{name} BOOK IN NOW YOUT")
+                print(f"{name} BOOK IN NOW YOURS")
                 self.books.remove(name)
                 print("NOW AVALABILE BOOKS ARE ")
                 for books in self.books:
@@ -39,7 +39,7 @@ class Library:
 
 
 if __name__== "__main__" :
-    l=Library(["milos", "milan", "mladen"])
+    l=Library(["R&P Dad", "Crack the code ", "The Lord of the Rings"])
 
     print("""
                 WELCOME TO OUR LIBRARY 
